@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaishy</title>
+    <style>
+        *{
+            margin: 0px 0px;
+            
+        }
+        
+        .navbar{
+            background: url("timepass.jpg") no-repeat center center/cover ;
+            height: 80px;
+            width: 100%;
+            border-radius: 50px;
+            justify-content: center; 
+        position: sticky;
+        top: 0px;
+        }
+        .navbar ul li a{ 
+text-decoration: none;
+list-style: none;
+cursor: pointer;
+color: black;
+
+
+        }
+    .navbar ul li a:hover{
+        background-color: rgb(231, 213, 213);
+        color: rgb(14, 9, 2);
+    transform:scale(1.3) ;
+    }
+    .navbar ul li:hover{
+        transform:scale(1.3) ;
+        background-color: wheat;
+    }
+
+        .navbar ul li{
+            float: left;
+            list-style: none;
+            border: 2px solid red;
+            margin: 20px 230px;
+            background-color: rgb(180, 147, 117);
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+
+            
+        }
+        .home{
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            background: url("timepass3.jpg") no-repeat center center/cover;
+            border-radius: 10000px;
+        }
+        h1{
+            justify-content: center;
+            font-size: 100px;
+            padding-top: 100px;
+        }
+        p{
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        h2{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 40px;
+            padding: 10px;
+        }
+        form{
+            text-align: center;
+        }
+        #group{
+            text-align: center;
+            margin: 4px 6px;
+            padding: 4px;
+            font-weight: bolder;
+        }
+        .form{
+            
+            width: 100%;
+            height: 300px;
+        }
+        .form::before{
+            content: "";
+            background: url('form.webp') no-repeat center center/cover;
+position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 690px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+        }
+        .btn{
+            padding: 4px;
+            margin: 4px 4px;
+            cursor: pointer;
+        }
+        .foot{
+            
+            width: 100%;
+            height: 200px;
+            color: white;
+            background-color: rgb(2, 2, 59);
+            padding: 20px;
+        
+        }
+        .form a{
+            color: white;
+            padding: 30px;
+        }
+        .footer{
+            color: white;
+            padding: 45px;
+            margin: 20px 50px;
+            margin-top: 50px;
+            text-decoration: none;
+            font-size: large;
+        }
+        .end{
+            color: white;
+        }
+        @media (max-width: 1269px) {
+            .navbar{
+                height: 180px;
+            }
+            h1{
+                font-size: 50px;
+            }
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li> <a href="meet"> Meet Online</a></li>
+            <li> <a href="meet">Meet Face to Face</a> </li>
+        </ul>
+
+    </div>
+    <hr>
+    <div class="home">
+        <h1>Md Kashif Hussain</h1>
+    <p>Now in your city</p>
+</div>
+<div class="form">
+    <h2>Chat with Kashif</h2>
+    <form action="">
+        <input type="text" name="name" id="group" placeholder="Write your name"><br>
+        <input type="text" name="name" id="group" placeholder="Write your gender"><br>
+        <input type="text" name="name" id="group" placeholder="Write your contact no."><br>
+        <input type="text" name="name" id="group" placeholder="Write your email id"><br>
+        <button class="btn">Submit</button>
+
+    </form>
+</div>
+<div class="foot">
+    <a href="" class="footer">Terms & condition</a><br>
+    <br>
+    <a href=""class="footer">Copy Rights</a><br>
+    <br>
+    <a href=""class="footer">Contact</a><br>
+    <br>
+    <a href=""class="footer">Donate</a><br>
+    <br>
+    <a href="" class="footer">Email</a>
+    
+</div>
+</body>
+</html>
